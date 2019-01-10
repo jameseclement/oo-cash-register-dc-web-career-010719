@@ -12,6 +12,7 @@ def add_item (title, price)
 @price = price
 self.total += price
 
+end
 
 
 
