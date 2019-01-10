@@ -12,9 +12,12 @@ def add_item (title, price, quantity = 1)
 @price = price
 @quantity = quantity
 self.total += price*quantity
-
 end
 
+def apply_discount
+  binding.pry
+  # if self.discount > 0 
+    
 
 
 
