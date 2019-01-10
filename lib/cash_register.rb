@@ -16,12 +16,12 @@ self.total += price*quantity
 end
 
 def apply_discount
-  binding.pry
+ 
   if self.discount > 0 
-    
+    self.total *= 100.00/self.discount
   end
 
-
+end
 
 
 end
