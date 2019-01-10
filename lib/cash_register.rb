@@ -17,7 +17,7 @@ end
 def apply_discount
   binding.pry
   # if self.discount > 0 
-    
+  end
 
 
 
